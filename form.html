@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1" />
+    <title>Survey Form</title>
+    <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="form.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Create Account</h2>
+            </div>
+            <form action="" class="form" id="form">
+                <div class="form-control success">
+                    <label>UserName:</label>
+                    <input type="text" id="username" placeholder="Enter Username">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control error">
+                    <label>Email:</label>
+                    <input type="email" id="email" placeholder="abc@gamil.com">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label>Password:</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label>Reenter password:</label>
+                    <input type="password" id="password2" placeholder="Enter password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+
+    </body>
+</html>

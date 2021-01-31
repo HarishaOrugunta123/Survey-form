@@ -1,0 +1,36 @@
+#border{
+  background-origin: padding-box; 
+  background-color: lightgoldenrodyellow;
+  padding: 20px 20px;
+  
+}
+form{
+    background-color: white;
+    border-radius: 2rem;
+    border: 1px solid lightgray;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+fieldset{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+#submitbutton{
+    justify-content:center;
+    display: flex;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 5px;
+}
