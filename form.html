@@ -9,45 +9,45 @@
   <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
   <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
     <link rel="stylesheet" href="form.css">
-    <script type="text/javascript" src="form.js"></script>
+    
     </head>
     <body>
         <div class="container">
             <div class="header">
                 <h2>Create Account</h2>
             </div>
-            <form action="" class="form" id="form">
-                <div class="form-control success">
-                    <label>UserName:</label>
-                    <input type="text" id="username" placeholder="Enter Username">
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="florinpop17" id="username" />
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
-                    <small>Error Message</small>
-                </div>
-                <div class="form-control error">
-                    <label>Email:</label>
-                    <input type="email" id="email" placeholder="abc@gamil.com">
-                    <i class="fas fa-check-circle"></i>
-                    <i class="fas fa-exclamation-circle"></i>
-                    <small>Error Message</small>
+                    <small>Error message</small>
                 </div>
                 <div class="form-control">
-                    <label>Password:</label>
-                    <input type="password" id="password" placeholder="Enter password">
+                    <label for="username">Email</label>
+                    <input type="email" placeholder="a@florin-pop.com" id="email" />
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
-                    <small>Error Message</small>
+                    <small>Error message</small>
                 </div>
                 <div class="form-control">
-                    <label>Reenter password:</label>
-                    <input type="password" id="password2" placeholder="Enter password">
+                    <label for="username">Password</label>
+                    <input type="password" placeholder="Password" id="password"/>
                     <i class="fas fa-check-circle"></i>
                     <i class="fas fa-exclamation-circle"></i>
-                    <small>Error Message</small>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username">Password check</label>
+                    <input type="password" placeholder="Password two" id="password2"/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
                 <button>Submit</button>
             </form>
         </div>
-
+        <script src="form.js"></script>
     </body>
 </html>
