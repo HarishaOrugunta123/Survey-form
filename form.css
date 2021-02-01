@@ -72,19 +72,26 @@ body {
 	border-color: #e74c3c;
 }
 
-.form-control i {
+.form-control span.check {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+.form-control span.exclamation {
 	visibility: hidden;
 	position: absolute;
 	top: 40px;
 	right: 10px;
 }
 
-.form-control.success i.fa-check-circle {
+
+.form-control.success span.check {
 	color: #2ecc71;
 	visibility: visible;
 }
 
-.form-control.error i.fa-exclamation-circle {
+.form-control.error span.exclamation {
 	color: #e74c3c;
 	visibility: visible;
 }
